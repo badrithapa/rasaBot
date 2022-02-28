@@ -1,0 +1,108 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - home_loan
+  - home_loan_charges
+  - home_loan_sector
+  - home_loan_types
+  - home_loan_who
+  - student_loan
+  - student_loan_charges
+  - student_loan_sector
+  - student_loan_types
+  - student_loan_who
+  - protection_loan
+  - protection_loan_charges
+  - protection_loan_sector
+  - protection_loan_who
+  - protection_loan_types
+  - grievances_application_status
+  - grievances_loan_eligibility
+  - services_info
+  - about_us
+  - grievances
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+
+  utter_about_us:
+  - text: "Truly a pioneer in the Domestic Banking Sector, Nabil Bank's mission is to  become the Bank of 1st choice of all its stakeholders - including all strata of customers of retail, SME, corporate, state-owned enterprises, non-profit entities, multinational development agencies, along with the Bank's employees and shareholders. The Bank strives to be a one-stop solutions provider by offering a complete line of commercial banking products such as branch banking, treasury, trade, cards, remittance, and investment banking. The expert team of highly skilled professionals provides industry-specific guidance and advisory for efficient financial management, resulting in higher customer profitability.
+
+  Nabil Bank operates through its wide network of 135 branch offices, 183 ATMs, numerous POS terminals, remittance agents spread across the nation. The Bank also has over 170 international correspondent banking relationships. The Bank operates its investment banking arm through its subsidiary Nabil Investment Banking Ltd.
+
+  The Bank understands that its role goes beyond just financial transactions, and towards the development of society as well. Hence, the Bank is highly active in creating financial literacy and providing financial access to a large section of the population across the country as part of its Corporate Social Responsibility. Extending credit to deprived sectors of the society through micro-lending and financing priority sectors that include agriculture, renewable energy and tourism are key areas that define the Bank's commitment to the country's development initiative. Nabil Bank has also established its branch offices in multiple rural locations in the western and far-western hills with its vision to reach the financially under-privileged population and increase financial literacy therein."
+
+  utter_services_info:
+  - text: "We offer Home Loan with an interest of 7.9% p. a. and Education Loan with an interest of 6.5%. Protection Loan services and charges for them depends on circumstances."
+
+
+  utter_home_loan:
+  - text: "A home loan is a secured loan that is obtained to purchase a property by offering it as collateral. Home loans offer high-value funding at economical interest rates and for long tenors. They are repaid through EMIs. After repayment, the property's title is transferred back to the borrower."
+
+  utter_home_loan_charges:
+  - text: "We offer home loan for interest of 7.9% p. a."
+  - text: "Charges for home loan is 7.9% per annum."
+
+  utter_home_loan_sector:
+  - text: "This is offered to purchase a property by offering it as collateral, it can be used for buying land, house, etc."
+
+  utter_home_loan_who:
+  - text: "Person/people who possess citizenship certificate of Nepal and are of age 18 or higher are eligible for this home loan."
+
+  utter_home_loan_type:
+  - text: "We offer \n1. Home purchase loan\n2. Land Purchase loan\n3. Extension loan.\n You can contact the bank through phone to learn more about it."
+
+  utter_student_loan:
+  - text: "A student loan is money borrowed from the government or a private lender in order to pay for college. The loan has to be paid back later, along with interest that builds up over time. The money can usually be used for tuition, room and board, books or other fees. But some students use their loan money for other stuff—like trips to Jamaica for spring break."
+
+  utter_student_loan_charges:
+  - text: "An interest of 6.5% per annum may be incurred on total sum of loan."
+  - text: "Charges for Student Loan is 6.5% p. a."
+
+  utter_student_loan_sector:
+  - text: "Student loan is for borrowed to pay for education of the student. This includes tuition, room, books and other fees."
+
+  utter_student_loan_who:
+  - text: "Any student who is of age 18 years or older with certificate of citizenship is eligible for this Student loan as long as it is for educational expenses."
+
+  utter_student_loan_type:
+  - text: "Student loan can be of two main types\n1. Federal Student Aid: provided by the government.\n2. Private Studen loan: provided by private financial institutes."
+
+  utter_protection_loan:
+  - text: "Loan protection insurance covers debt payments on certain covered loans if the insured loses their ability to pay due to a covered event.\n
+  Such an event may be disability or illness, unemployment, or another hazard, depending on the particular policy.\n
+  Costs for these policies may vary by age as well as factors such as credit history and amount of debt outstanding."
+
+  utter_protection_loan_charges:
+  - text: "The cost of payment protection insurance depends on where you live, the type of policy you select, whether it is standard or age-related, and how much coverage you would like to have. Loan protection insurance can be very expensive. If you have a poor credit history, you might end up paying an even higher premium for coverage."
+
+  utter_protection_loan_sector:
+  - text: "Loan protection insurance covers debt payments on certain covered loans if the insured loses their ability to pay due to a covered event. Such an event may be disability or illness, unemployment, or another hazard, depending on the particular policy."
+
+  utter_protection_loan_who:
+  - text: "Person/people who possess citizenship certificate of Nepal and are of age 18 or higher are eligible for this protection loan. Credit score and history may factor in to it."
+
+  utter_protection_loan_type:
+  - text: "There are two different types of protection loan\n1. Standard Policy: This policy disregards the age, sex, occupation, and smoking habits of the policyholder.\n2. Age-Related Policy: For this type of policy, the cost is determined by the age and amount of coverage the policyholder wants to have."
+
+  utter_grievances_application:
+  - text: "You can contact the bank at bank@bank.com or call  at 1234567890 to learn about your application status."
+
+  utter_grievances_loan_eligibility:
+  - text: "You can contact the bank at bank@bank.com or call  at 1234567890 to learn about your eligibility status.\nIf you want to know about your eligibility for specific loan type just write \"am i eligible for home|student|protection loan? or who is eligible\" or something like that, it doesn't have to be specific."
+
+
+  utter_goodbye:
+  - text: "Bye, if you need anything i'm righ here."
+
+  utter_iamabot:
+  - text: "I am a bot and no I don't have metal arm or steel heart"
+
+session_config:
+  session_expiration_time: 300
+  carry_over_slots_to_new_session: true

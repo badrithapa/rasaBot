@@ -1,0 +1,127 @@
+version: "3.0"
+
+stories:
+
+- story: greet story
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: about
+  steps:
+  - intent: about_us
+  - action: utter_about_us
+
+- story: services
+  steps:
+  - intent: services_info
+  - action: utter_services_info
+
+- story: grievances
+  steps:
+  - intent: grievances
+  - action: utter_grievances_application
+  - action: utter_grievances_loan_eligibility
+
+- story: grievances2
+  steps:
+  - intent: grievances_application_status
+  - action: utter_grievances_application
+
+- story: grievances3
+  steps:
+  - intent: grievances_loan_eligibility
+  - action: utter_grievances_loan_eligibility
+
+
+- story: home loan
+  steps:
+    - intent: home_loan
+    - action: utter_home_loan
+    - action: utter_home_loan_charges
+    - action: utter_home_loan_sector
+    - action: utter_home_loan_type
+    - action: utter_home_loan_who
+
+- story: home loan charges
+  steps:
+    - intent: home_loan_charges
+    - action: utter_home_loan_charges
+
+- story: home loan sector
+  steps:
+    - intent: home_loan_sector
+    - action: utter_home_loan_sector
+
+- story: home loan types
+  steps:
+    - intent: home_loan_types
+    - action: utter_home_loan_type
+
+- story: home loan who
+  steps:
+    - intent: home_loan_sector
+    - action: utter_home_loan_sector
+
+- story: student loan
+  steps:
+    - intent: student_loan
+    - action: utter_student_loan
+    - action: utter_student_loan_charges
+    - action: utter_student_loan_sector
+    - action: utter_student_loan_type
+    - action: utter_student_loan_who
+
+- story: student loan charges
+  steps:
+    - intent: student_loan_charges
+    - action: utter_student_loan_charges
+
+- story: student loan sector
+  steps:
+    - intent: student_loan_sector
+    - action: utter_student_loan_sector
+
+- story: student loan types
+  steps:
+    - intent: student_loan_types
+    - action: utter_student_loan_type
+
+- story: student loan who
+  steps:
+    - intent: student_loan_who
+    - action: utter_student_loan_who
+
+- story: protection loan
+  steps:
+    - intent: protection_loan
+    - action: utter_protection_loan
+    - action: utter_protection_loan_charges
+    - action: utter_protection_loan_sector
+    - action: utter_protection_loan_who
+    - action: utter_protection_loan_type
+
+- story: protection loan charges
+  steps:
+    - intent: protection_loan_charges
+    - action: utter_protection_loan_charges
+
+- story: protection loan sector
+  steps:
+    - intent: protection_loan_sector
+    - action: utter_protection_loan_sector
+
+- story: protection loan who
+  steps:
+    - intent: protection_loan_who
+    - action: utter_protection_loan_who
+
+- story: protection loan types
+  steps:
+    - intent: protection_loan_types
+    - action: utter_protection_loan_type
+
+- story: bye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye

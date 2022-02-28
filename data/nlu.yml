@@ -1,0 +1,222 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+#about us
+- intent: about_us
+  examples: |
+    - about your bank
+    - tell about your bank.
+#services  info
+- intent: services_info
+  examples: |
+    - what services do you offer?
+    - can you tell me about services?
+    - service
+    - types of services
+    - offer services
+    - interests
+    - interest on services
+    - interests of home loan
+    - home loan interest
+    - education loan interest
+
+
+- intent: grievances
+  examples: |
+    - I have a complaint
+    - help
+    - complaint
+    - need assistance
+    - need help with something
+    - i was wondering if you could help me with this?
+    - can you help me?
+
+
+- intent: grievances_application_status
+  examples: |
+    - help with application status
+    - KYC
+    - special loan
+    - application status
+    - what is my status
+    - I applied for special loan, what is the status?
+    - I sent application for KYC, what is my status?
+    - what's the status on my application?
+    - what's my KYC application status?
+    - what's my loan request status?
+    - what is the status of my request?
+
+
+
+- intent: grievances_loan_eligibility
+  examples: |
+    - am i eligible for loan?
+    - what is loan eligibility?
+    - loan eligible
+
+
+
+# home loan sections....
+
+#home loan details
+- intent: home_loan
+  examples: |
+    - home loan
+    - can you tell me about home loan?
+    - what is home loan?
+    - loan for home
+    - what about home loan
+    - i want to learn about home loan
+#home loan charges and interests
+- intent: home_loan_charges
+  examples: |
+    - do you charges for home loan?
+    - charges for home loan
+    - home loan interests
+    - interests on home loan
+    - what is the policy on charges on home loan
+    - how much do you charge for home loan
+
+#home loan sectors
+- intent: home_loan_sector
+  examples: |
+    - what can we do with home_loan?
+    - sectors of home loan
+    - use home loan for
+    - what can we use home loan for?
+    - what are eligible sectors of home loan?
+
+#who is eligible for home loan
+- intent: home_loan_who
+  examples: |
+    - who is eligible for home loan?
+    - who can get the home loan?
+    - am i eligible for home loan?
+    - how to check if i'm eligible for home loan
+
+#types of home loan
+- intent: home_loan_types
+  examples: |
+    - types of home loan
+    - how many types of home loan do you offer?
+    - home loan types
+    - kinds of home loan
+    - what kinds of home loan?
+
+#Student loan
+- intent: student_loan
+  examples: |
+    - student loan
+    - what about student loan
+    - want to know about student loan
+    - what do you offer in student loan
+    - loan for student
+    - what is student loan
+
+#student loan charges
+- intent: student_loan_charges
+  examples: |
+    - charges for sutdent loan
+    - can you tell interets on student loan
+    - interest for sutdent loan
+    - about charges and interest of student loan
+    - what you charge for student loan
+
+#student loan sectors
+- intent: student_loan_sector
+  examples: |
+    - what can we use student loan for?
+    - what are eleigible sectors of student loan?
+    - sectors for student loan
+
+#student loan eligible
+- intent: student_loan_who
+  examples: |
+    - who is eligible for student loan?
+    - am i eligble for student loan?
+    - who can get the student loan?
+    - eligibility for student loan
+
+#types of student loan
+- intent: student_loan_types
+  examples: |
+    - types of student loan
+    - kinds of studen loan
+    - student loan types
+    - what kinds of student loan do you offer?
+
+#protection loan
+- intent: protection_loan
+  examples: |
+    - what is protection  loan?
+    - tell me about protection loan
+    - protection loan
+    - loan for protection
+
+#protection loan charges
+- intent: protection_loan_charges
+  examples: |
+    - interests on protection loan
+    - what are the charges on protection loan
+    - what do you charge for protection loan
+    - protection loan charges
+    - charges for protection loan
+
+#protection loan sector
+- intent: protection_loan_sector
+  examples: |
+    - what can i use protection loan for?
+    - what is protection loan for?
+    - sector of protection loan
+    - what are eligible sectors of home loan?
+
+- intent: protection_loan_who
+  examples: |
+    - who is eligible for protection loan?
+    - who can get protection loan?
+    - eligible for protection loan
+    - am i eligible for protection loan?
+
+
+- intent: protection_loan_types
+  examples: |
+    - kinds of protection loan
+    - types of protection loan
+    - protection loan types
+    - what kinds of protection loan do you offer?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
